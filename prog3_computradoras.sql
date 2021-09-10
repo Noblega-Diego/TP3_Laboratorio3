@@ -1,0 +1,19 @@
+CREATE DATABASE ormComputer;
+USE ormComputer;
+
+CREATE TABLE Computadoras(
+	id BIGINT NOT NULL AUTO_INCREMENT,
+	codigo VARCHAR(100) NOT NULL,
+	marca VARCHAR(100) NOT NULL,
+	modelo VARCHAR(100) NOT NULL,
+	PRIMARY KEY(id)
+);
+
+CREATE TABLE componentes(
+	id BIGINT NOT NULL AUTO_INCREMENT,
+	nombre VARCHAR(100) NOT NULL,
+	nroSerie VARCHAR(150) NOT NULL,
+	computadoraId BIGINT NOT NULL,
+	PRIMARY KEY(id),
+	FOREIGN KEY(computadoraId) REFERENCES Computadoras(id)
+);

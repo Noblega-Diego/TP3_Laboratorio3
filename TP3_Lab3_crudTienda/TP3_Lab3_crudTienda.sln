@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP3_Lab3_crudTienda", "TP3_Lab3_crudTienda\TP3_Lab3_crudTienda.csproj", "{4FB9E32B-0547-4FF2-8FBE-5B00552A53F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FB9E32B-0547-4FF2-8FBE-5B00552A53F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB9E32B-0547-4FF2-8FBE-5B00552A53F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB9E32B-0547-4FF2-8FBE-5B00552A53F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB9E32B-0547-4FF2-8FBE-5B00552A53F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F78AEB0A-B2E8-482F-AB64-BC6E07BD4D72}
+	EndGlobalSection
+EndGlobal
